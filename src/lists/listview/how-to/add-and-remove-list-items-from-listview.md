@@ -66,6 +66,7 @@ addItem(){
     icon: "delete-icon"
   };
   this.listviewInstance.addItem([data]);
+  this.onComplete();
 }
 }
 
